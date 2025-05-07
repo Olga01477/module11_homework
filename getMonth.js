@@ -1,6 +1,6 @@
 function getMonth(n) {
   if (typeof n !== 'number' || !Number.isInteger(n) || n < 1 || n > 12) {
-    return null; // Некорректный ввод
+    return null; 
   }
 
   if (n === 1) {
